@@ -33,7 +33,7 @@ const About = () => {
                 <div className="section__pic-container">
                     <img 
                         src={require("../assets/about-pic.png")} 
-                        alt="Umar Manzoor about Picture"
+                        alt="Umar Manzoor about pic"
                         className="about-pic"
                     />
                 </div>
