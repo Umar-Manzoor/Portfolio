@@ -1,5 +1,4 @@
-import Nav1 from "./Nav1";
-import Nav2 from "./Nav2";
+import Nav from "./Nav";
 import Profile from "./sections/Profile";
 import About from "./sections/About";
 import Experience from "./sections/Experience";
@@ -10,12 +9,11 @@ import Footer from "./Footer";
 function App() {
   return (
     <div className="App">
-      <Nav1/>
-      <Nav2/>
+      <Nav/>
       <Profile/>
-      <About/>
       <Experience/>
       <Projects/>
+      <About/>
       <Contact/>
       <Footer/>
     </div>
