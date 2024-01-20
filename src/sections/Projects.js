@@ -92,7 +92,7 @@ const Projects = () => {
                 src={require("../assets/arrow.png")}
                 alt="Arrow icon" 
                 className="icon arrow" 
-                onClick={() => window.location.assign('./#contact')} 
+                onClick={() => window.location.assign('./#about')} 
             />
         </section>
     )
