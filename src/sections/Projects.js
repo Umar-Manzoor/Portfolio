@@ -77,7 +77,7 @@ const Projects = () => {
                         <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={() => window.location.assign('https://github.com/Umar-Manzoor/Georgia-Tech-Blog')} 
+                            onClick={() => window.location.assign('https://github.com/Umar-Manzoor/Portfolio/tree/main')} 
                         >
                             Github
                         </button>
@@ -91,7 +91,7 @@ const Projects = () => {
                         <div className="btn-container">
                         <button
                             className="btn btn-color-2 project-btn"
-                            onClick={() => window.location.assign('https://github.com/Umar-Manzoor/Georgia-Tech-Blog')} 
+                            onClick={() => window.location.assign('https://github.com/Umar-Manzoor/Snake-Game')} 
                         >
                             Github
                         </button>
