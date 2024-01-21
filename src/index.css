@@ -324,6 +324,11 @@ section {
   font-size: 1.3rem;
 }
 
+.section__text__p4 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 .title {
   font-size: 4rem;
   text-align: center;
@@ -454,7 +459,7 @@ section {
 
 .details-container {
   padding: 1.5rem;
-  flex: 1;
+  flex: 1 0 calc(33.33% - 10px);
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -477,6 +482,16 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
+  position: relative;
+  height: 100%;
+}
+
+.experience-title {
+  font-size: 2.3rem;
+  text-align: center;
+}
+
+#skills {
   position: relative;
   height: 100%;
 }
@@ -527,6 +542,11 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.text-container-projects {
+  margin-bottom: 2rem;
+  text-align: justify;
 }
 
 .project-containers {
