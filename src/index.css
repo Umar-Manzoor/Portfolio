@@ -366,6 +366,13 @@ section {
   gap: 1rem;
 }
 
+.btn-container-swiftly {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
 .btn {
   font-weight: 500;
   transition: all 300ms ease;
@@ -457,6 +464,11 @@ section {
 
 .about-pic {
   border-radius: 2rem;
+}
+
+.about-pic-intro {
+  border-radius: 2rem;
+  width: 100rem;
 }
 
 .arrow {
