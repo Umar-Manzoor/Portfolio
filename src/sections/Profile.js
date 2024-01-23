@@ -12,7 +12,7 @@ const Profile = () => {
                 <p className="section__text__p2">Fullstack Developer</p>
                 <div className="btn-container">
                     <button className="btn btn-color-2" onClick={() => window.location.assign('https://drive.google.com/file/d/1FGJle30UUZBwYyYBHMzdMxoi74wzrBcA/view?usp=sharing')}>
-                        Download Resume
+                        Resume
                     </button>
                     <button className="btn btn-color-1" onClick={() => window.location.assign('./#contact')}>
                         Contact Info
